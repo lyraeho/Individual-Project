@@ -28,7 +28,7 @@ def main():
     print('Goodbye!')
     exit()
 
-class childhood:
+def childhood():
   import random
 
   # Initial character stats
@@ -149,7 +149,7 @@ class childhood:
   else:
       print("You reached age 18. Game over.")
     
-class adulthood:
+def adulthood():
   import random
   # Will use stats from end of childhood()
   def handle_event(event):
